@@ -120,7 +120,7 @@ Example:
 | Mouse Events | Keyboard Events | Form Events | Document/Window Events |
 |--------------|-----------------|-------------|------------------------|
 | click | keypress | submit | load |
-| dbclick | keydown | change | resize |
+| dblclick | keydown | change | resize |
 | mouseenter | keyup | focus | scrool |
 | mouselevel |  | blur | unload |
 
