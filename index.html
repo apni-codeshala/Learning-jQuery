@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="t2">
+        <h1>Hello</h1>
+    </div>
+    <h1>Output:</h1>
+    <p class="output"></p>
+    <script>
+        $(document).ready(function(){
+            var a = $("#t2").html();
+            console.log(a);
+            $(".output").text(a);
+        })
+        
+    </script>
+</body>
+</html>
